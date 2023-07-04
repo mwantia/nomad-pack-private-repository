@@ -1,0 +1,13 @@
+[[- define "name" -]]
+[[- if eq .default-traefik.name "" -]]
+[[- .nomad_pack.pack.name -]]
+[[- else -]]
+[[- .default-traefik.name -]]
+[[- end -]]
+[[- end -]]
+
+[[- define "region" -]]
+[[- if not (eq .default-traefik.region "") -]]
+region = [[ .default-traefik.region | quote ]]
+[[- end -]]
+[[- end -]]
