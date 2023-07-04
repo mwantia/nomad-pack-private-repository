@@ -1,11 +1,11 @@
 app {
-  url    = "https://grafana.com/"
-  author = "grafana"
+  url    = "https://traefik.io/traefik/"
+  author = "traefik"
 }
 
 pack {
-  name        = "hcloud_telemetry_visualisation"
-  description = "Set of applications used to collect telemetry data over Prometheus and visualize then via Grafana."
-  url         = "https://github.com/blaickgaming/nomad-pack-hcloud-registry/hcloud_telemetry_visualisation"
+  name        = "traefik"
+  description = ""
+  url         = "https://github.com/mwantia/nomad-pack-private-repository/tree/main/packs/traefik"
   version     = "0.0.1"
 }
