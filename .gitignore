@@ -1,0 +1,5 @@
+[Dd]eployments/
+[Tt]tmp/
+
+*.png
+**/*.override.*
